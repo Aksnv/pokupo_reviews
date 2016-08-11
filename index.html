@@ -2,15 +2,48 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <!-- Страница по словам Игоря не должна быть адаптивной (задана фиксированная ширина вьюпорта) -->
-  <meta name="viewport" content="width=1000">
   <title>Отзывы клиентов сервиса интернет-магазинов Pokupo</title>
-  <link rel="stylesheet" type="text/css" href="styles/reset.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  
+  <!-- Страница по словам Игоря не должна быть адаптивной (задана фиксированная ширина вьюпорта по ширине контента в макете 1000px) -->
+  <meta name="viewport" content="width=1000">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  
+  <!-- Эти мета-теги нужны? Что в них прописывать? -->
+  <!-- iOS-->
+  <!-- Windows 8--> 
+
+  <!-- Windows-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Эти мета-теги нужны? Что в них прописывать? -->
+  <!-- Windows Phone-->
+  <!-- Blackberry and etc--> 
+  <!-- No parse telephone and address--> 
+
+  <!-- SEO-->
+  <!-- Что прописывать в мета-тегах для SEO и все ли они нужны на странице? -->
+  <meta name="description" content="...">
+  <meta name="keywords" content="..."> 
+  <meta name="copyright" content="...">
+  <meta name="reply-to" content="...">
+
+  <link rel="shortcut icon" href="images/icons/favicon.ico">
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <!-- Нужно предусматривать работу с IE 6-8? Какие именно скрипты подключать? -->
+  <!--[if lt IE 9]>
+  <script src="..."></script>
+  <![endif]-->
+
+  <!-- Какие именно скрипты/библиотеки нужно подключать ко всем страницам в head или все в конце body? -->
+  <!-- <script src="..."></script> -->
+  
 </head>
 <body>
   <div class="container">
-    <section>
+    <section class="client-reviews">
       <h1>Отзывы о нас</h1>
       <p>Мы публикуем отзывы наших клиентов, чтобы все знали, какая мы отличная команда! Но уверяем вас, мы не зазанаемся и не заболеем.А будем стараться и дальше реализовывать все ваши пожелания и наши задумки, чтобы завтра стать лучше, чем вчера. А вам, нашим клиентам, огромная благодарность за то, что верите в нас, как и мы верим в вас, и вместе мы помогаем друг другу развиваться!</p>
       <div class="client-review">
@@ -45,6 +78,45 @@
         </article>
       </div>
     </section>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="page-footer__columns">
+          <div class="page-footer__column page-footer__column--left">
+            <ul>
+              <li class="contact-icon contact-icon__copyright">Pokupo.ru&nbsp;2014</li>
+              <li class="contact-icon contact-icon__email"><a href="mailto:support@pokupo.ru" title="E-mail">support@pokupo.ru</a></li>
+              <li class="contact-icon contact-icon__skype"><a href="skype:pokupo.ru?chat" onclick="return skypeCheck()" title="Skype">pokupo.ru</a></li>
+            </ul>
+          </div>
+          <div class="page-footer__column page-footer__column--center">
+            <ul>
+              <li><a href="https://help.pokupo.ru/knowledgebase.php" title="База знаний">База знаний</a></li>
+              <li><a href="https://help.pokupo.ru/" title="Техническая поддержка">Техническая поддержка</a></li>
+              <li><a href="https://pokupo.ru/sitemap" title="Карта сайта">Карта сайта</a></li>
+            </ul>
+          </div>
+          <div class="page-footer__column page-footer__column--right">
+            <ul>
+              <li><a href="https://pokupo.ru/rules" title="Пользовательское соглашение">Пользовательское соглашение</a></li>
+              <li><a href="https://pokupo.ru/police" title="Правила конфиденциальности">Правила конфиденциальности</a></li>
+              <li><a href="https://pokupo.ru/refund" title="Политика возврата платежей">Политика возврата платежей</a></li>
+            </ul>
+          </div>
+          <div class="page-footer__column page-footer__column--sm">
+            <ul>
+              <li class="social-icon social-icon__vk"><a href="https://new.vk.com/pokupo" target="_blank" title="Вконтакте">Вконтакте</a></li>
+              <li class="social-icon social-icon__tw"><a href="https://twitter.com/pokupo_ru" target="_blank" title="Твиттер">Твиттер</a></li>
+              <li class="social-icon social-icon__blog"><a href="https://pokupo.ru/blog" target="_blank" title="Блог">Блог</a></li>
+              <li class="social-icon social-icon__hh"><a href="https://habrahabr.ru/users/pokupo/" target="_blank" title="Хабрахабр">Хабрахабр</a></li>
+              <li class="social-icon social-icon__gp"><a href="https://groups.google.com/forum/#!forum/pokupo_ru" target="_blank" title="Гугл-плюс">Гугл-плюс</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="page-footer__payment-system">
+          <img src="https://pokupo.ru/uploads/images/pimgpsh_fullsize_distr.jpg" alt="платёжные системы для интернет-магазина">
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
