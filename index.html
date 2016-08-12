@@ -29,6 +29,7 @@
 
   <link rel="shortcut icon" href="images/icons/favicon.ico">
 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
   
@@ -43,24 +44,25 @@
 </head>
 <body>
 
+
   <!-- Page header -->
   <header class="page-header">
     <div class="container">
-      <div class="page-header__logo">
+      <div class="page-header__column page-header__column--logo">
         <a href="https://pokupo.ru/" title="Pokupo.ru">Logo</a>
       </div>
-      <div class="page-header__menu">
+      <div class="page-header__column page-header__column--menu">
         <nav>
           <ul>
             <li><a href="https://pokupo.ru/">Платформа</a>
-              <ul class="page-header__submenu">
+              <ul class="page-header__column--submenu">
                 <li><a href="https://pokupo.ru/about">О проекте</a></li>
                 <li><a href="https://pokupo.ru/shop">Торговый портал</a></li>
               </ul>
             </li>
             <li><a href="https://pokupo.ru/rates">Тарифы</a></li>
             <li><a href="https://pokupo.ru/events">Компания</a>
-              <ul class="page-header__submenu">
+              <ul class="page-header__column--submenu">
                 <li><a href="https://pokupo.ru/events">События</a></li>
                 <li><a href="https://pokupo.ru/aboutus">О нас</a></li>
                 <li><a href="https://pokupo.ru/reviews">Отзывы</a></li>
@@ -70,7 +72,7 @@
             </li>
             <li><a href="https://pokupo.ru/partners">Партнеры</a></li>
             <li><a href="https://pokupo.ru/faq">Помощь</a>
-              <ul class="page-header__submenu">
+              <ul class="page-header__column--submenu">
                 <li><a href="https://pokupo.ru/faq">Вопросы и ответы</a></li>
                 <li><a href="https://help.pokupo.ru/" target="_blank">Техническая поддержка</a></li>
                 <li><a href="https://pokupo.ru/webinar_list">Вебинары</a></li>
@@ -79,60 +81,61 @@
           </ul>
         </nav>
       </div>
-      <div class="page-header__search">
+      <div class="page-header__column page-header__column--search">
         <button class="header-icon header-icon__search">Search</button>
       </div>
-      <div class="page-header__login-seller">
+      <div class="page-header__column page-header__column--login-seller">
         <a href="https://seller.pokupo.ru/login" class="header-icon header-icon__login" title="Кабинет продавца">Login seller</a>
       </div>
-      <div class="page-header__registration-seller">
+      <div class="page-header__column page-header__column--registration-seller">
         <a href="https://pokupo.ru/partners#/registration_seller/" class="header-icon header-icon__registration">Открыть магазин</a>
       </div>
     </div>
   </header>
-  <div class="page-header__search-block"></div>
+  <div class="page-header__column--search-block"></div>
+
 
   <!-- Page content -->
-  <div class="page-content">
+  <section class="client-reviews">
     <div class="container">
-      <section class="client-reviews">
+      <div class="client-reviews__header">
         <h1>Отзывы о нас</h1>
-        <p>Мы публикуем отзывы наших клиентов, чтобы все знали, какая мы отличная команда! Но уверяем вас, мы не зазанаемся и не заболеем.А будем стараться и дальше реализовывать все ваши пожелания и наши задумки, чтобы завтра стать лучше, чем вчера. А вам, нашим клиентам, огромная благодарность за то, что верите в нас, как и мы верим в вас, и вместе мы помогаем друг другу развиваться!</p>
-        <div class="client-review">
-          <article class="client-review__article">
-            <header class="client-review__article-header">
-              <h2>Компания SHLtest.com</h2>
-              <a href="http://shltest.com/">SHLtest.com</a>
-            </header>
-            <p>Мы выбрали Pokupo после неудачного сотрудничества с Робокассой. Нам понравилось, что данная система основана уже однажды проверенной командой и, судя по тому, как коллеги активно публиковали новости и ценную информацию в блоге и в группах, было понятно, что настроены они серьезно. Также импонировали конкретные и приземленные цели, написанные у них на главной странице (а не абстрактная миссия и красивые слова). Чувствовалось, что команда абсолютно понимает бизнес.</p>
-            <p>После регистрации в системе Pokupo, мы были приятно удивлены широкому функционалу. Можно было сделать практически всё, что хочешь.</p>
-            <p>Но больше всего нам понравилась Тех.Поддержка. Мало того, что сами технические специалисты отвечали оперативно, так нам выделили персонального менеджера, которая всегда была на связи и помогала решать наши вопросы со своей командой. Выражаем благодарность Светлане Сафоновой за это!</p>
-            <p>В течение работы мы сделали несколько предложений по улучшению функционала, и большую часть из них команда Pokupo уже воплотила. Т.е. коллеги не только решают возникающие вопросы, но и развивают систему под нужды Клиентов.</p>
-            <p>На данный момент нас устраивает всё.</p>
-            <p>Планируем подключить другие свои интернет-магазины к системе.</p>
-          </article>
-        </div>
-        <div class="client-review">
-          <article class="client-review__article">
-            <header class="client-review__article-header">
-              <h2>BrucoMedia</h2>
-            </header>
-            <p>Мы выбрали Pokupo после неудачного сотрудничества с Робокассой. Нам понравилось, что данная система основана уже однажды проверенной командой и, судя по тому, как коллеги активно публиковали новости и ценную информацию в блоге и в группах, было понятно, что настроены они серьезно. Также импонировали конкретные и приземленные цели, написанные у них на главной странице (а не абстрактная миссия и красивые слова). Чувствовалось, что команда абсолютно понимает бизнес.</p>
-            <p>После регистрации в системе Pokupo, мы были приятно удивлены широкому функционалу. Можно было сделать практически всё, что хочешь.</p>
-          </article>
-        </div>
-        <div class="client-review">
-          <article class="client-review__article">
-            <header class="client-review__article-header">
-              <h2>Магазин подарков "Клуб рук"</h2>
-            </header>
-            <p>В течение работы мы сделали несколько предложений по улучшению функционала, и большую часть из них команда Pokupo уже воплотила. Т.е. коллеги не только решают возникающие вопросы, но и развивают систему под нужды Клиентов.</p>
-          </article>
-        </div>
-      </section>
+        <p>Мы публикуем отзывы наших клиентов, чтобы все знали, какая мы отличная команда! Но уверяем вас, мы не зазнаемся и не заболеем.А будем стараться и дальше реализовывать все ваши пожелания и наши задумки, чтобы завтра стать лучше, чем вчера. А вам, нашим клиентам, огромная благодарность за то, что верите в нас, как&nbsp;и&nbsp;мы верим в вас, и вместе мы помогаем друг другу развиваться!</p>
+      </div>
+      <div class="client-review client-review--1">
+        <article class="client-review__article">
+          <header class="client-review__article-header">
+            <h2>Компания SHLtest.com</h2>
+            <a href="http://shltest.com/">SHLtest.com</a>
+          </header>
+          <p>Мы выбрали Pokupo после неудачного сотрудничества с Робокассой. Нам понравилось, что данная система основана уже однажды проверенной командой и, судя по тому, как коллеги активно публиковали новости и ценную информацию в блоге и в группах, было понятно, что настроены они серьезно. Также&nbsp;импонировали конкретные и приземленные цели, написанные у них на главной странице (а&nbsp;не&nbsp;абстрактная миссия и красивые слова). Чувствовалось, что команда абсолютно понимает бизнес.</p>
+          <p>После регистрации в системе Pokupo, мы были приятно удивлены широкому функционалу. Можно было сделать практически всё, что хочешь.</p>
+          <p>Но больше всего нам понравилась Тех.Поддержка. Мало того, что сами технические специалисты отвечали оперативно, так нам выделили персонального менеджера, которая всегда была на связи и&nbsp;помогала решать наши вопросы со своей командой. Выражаем благодарность Светлане Сафоновой&nbsp;за&nbsp;это!</p>
+          <p>В течение работы мы сделали несколько предложений по улучшению функционала, и большую часть из&nbsp;них команда Pokupo уже воплотила. Т.е. коллеги не только решают возникающие вопросы, но&nbsp;и&nbsp;развивают систему под нужды Клиентов.</p>
+          <p>На данный момент нас устраивает всё. Планируем&nbsp;подключить&nbsp;другие&nbsp;свои&nbsp;<nobr>интернет-магазины</nobr>&nbsp;к&nbsp;системе.</p>
+        </article>
+      </div>
+      <div class="client-review client-review--2">
+        <article class="client-review__article">
+          <header class="client-review__article-header">
+            <h2>BrucoMedia</h2>
+          </header>
+          <p>Мы выбрали Pokupo после неудачного сотрудничества с Робокассой. Нам понравилось, что данная система основана уже однажды проверенной командой и, судя по тому, как коллеги активно публиковали новости и ценную информацию в блоге и в группах, было понятно, что настроены они серьезно. Также&nbsp;импонировали конкретные и приземленные цели, написанные у них на главной странице (а&nbsp;не&nbsp;абстрактная миссия и красивые слова). Чувствовалось, что команда абсолютно понимает бизнес.</p>
+          <p>После регистрации в системе Pokupo, мы были приятно удивлены широкому функционалу. Можно было сделать практически всё, что хочешь.</p>
+        </article>
+      </div>
+      <div class="client-review client-review--3">
+        <article class="client-review__article">
+          <header class="client-review__article-header">
+            <h2>Магазин подарков &laquo;Клуб рук&raquo</h2>
+          </header>
+          <p>В течение работы мы сделали несколько предложений по улучшению функционала, и большую часть из&nbsp;них команда Pokupo уже воплотила. Т.е. коллеги не только решают возникающие вопросы, но и развивают систему под нужды Клиентов.</p>
+        </article>
+      </div>
     </div>
-  </div>
+  </section>
   
+
   <!-- Page footer -->
   <footer class="page-footer">
     <div class="container">
