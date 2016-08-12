@@ -20,16 +20,6 @@ body {
   height: 120px;
 }
 
-.page-header__column {
-  float: left;
-}
-
-.page-header__column--menu li {
-  display: inline-block;
-  vertical-align: top;
-}
-
-
 /* Content */
 
 .client-reviews {
@@ -167,12 +157,4 @@ body {
 .page-footer {
   height: 260px;
   background-color: #efece7;
-}
-
-.page-footer__columns {
-  height: 168px;
-}
-
-.page-footer__column {
-  float: left;
 }
