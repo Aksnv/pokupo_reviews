@@ -104,9 +104,9 @@ body {
 }
 
 .page-header__column--submenu-link span {
-  margin-left: 13px;
-  margin-right: 13px;
-  font-weight: 600;
+  margin-left: 12px;
+  margin-right: 17px;
+  /* font-weight: 600; */
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
 }
