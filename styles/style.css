@@ -5,6 +5,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -41,7 +42,7 @@ body {
 
 .page-header__column--menu {
   position: relative;
-  width: 475px;
+  /* width: 475px; */
 }
 
 .page-header__column--menu-link,
@@ -55,8 +56,8 @@ body {
   position: relative;
   display: block;
   height: 117px;
-  padding-left: 10px;
-  padding-right: 9px;
+  padding-left: 9px;
+  padding-right: 10px;
   font-size: 16px;
   line-height: 126px;
   color: #000000;
@@ -96,13 +97,15 @@ body {
   height: 60px;
   font-size: 14px;
   line-height: 60px;
+  /* margin-right: 5px; */
   padding: 0;
   color: #000000;
 }
 
 .page-header__column--submenu-link span {
-  margin-left: 13px;
-  margin-right: 14px;
+  margin-left: 12px;
+  margin-right: 13px;
+  font-weight: 600;
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -147,22 +150,22 @@ body {
 
 .page-header__column--search {
   margin-top: 53px;
-  margin-left: 26px;
+  margin-left: 27px;
 }
 
 .page-header__column--login-seller {
   margin-top: 53px;
-  margin-left: 32px;
+  margin-left: 33px;
 }
 
 .page-header__column--registration-seller {
   position: relative;
   width: 220px;
-  height: 45px;
+  height: 46px;
   border: 3px solid #ffa800;
   border-radius: 30px;
   margin-top: 40px;
-  margin-left: 6px;
+  margin-left: 5px;
 }
 
 .page-header__column--registration-seller:hover {
@@ -192,16 +195,17 @@ body {
   display: inline-block;
   width: 157px;
   font-size: 13px;
-  line-height: 40px;
+  font-weight: 600;
+  line-height: 39px;
   text-transform: uppercase;
-  padding-left: 57px;
+  padding-left: 56px;
   color: #000000;
 }
 
 .header-icon--registration::before {
   display: block;
   position: absolute;
-  left: 23px;
+  left: 24px;
   top: 9px;
   content: '';
   width: 26px;
