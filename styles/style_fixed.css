@@ -8,10 +8,7 @@ body {
 }
 
 .container {
-  /* width: 978px; */
-  /* *** */
-  max-width: 978px;
-  /* *** */
+  width: 978px;
   margin: auto;
 }
 
@@ -221,9 +218,6 @@ body {
 
 .client-reviews__header {
   max-width: 560px;
-  /* *** */
-  min-width: 370px;
-  /* *** */
   margin: auto;
   text-align: center;
 }
@@ -255,11 +249,7 @@ body {
 .client-review {
   display: table;
   position: relative;
-  /* width: 788px; */
-  /* *** */
-  max-width: 788px;
-  min-width: 310px;
-  /* *** */
+  width: 788px;
   min-height: 257px;
   background-color: #efece7;
   border-radius: 20px;

@@ -1,0 +1,58 @@
+/* Diffrent display layout styles */
+
+/* @media screen and (min-width: 1720px) {
+
+  Header
+
+  Footer
+
+}
+
+@media screen and (min-width: 1480px) and (max-width: 1719px) {
+
+} */
+
+@media screen and (max-width: 1000px) {
+
+  .client-review:nth-child(even),
+  .client-review:nth-child(odd) {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .client-review::before {
+    display: none;
+  }
+
+  .client-review:nth-child(even)::after,
+  .client-review:nth-child(odd)::after {
+    display: none;
+  }
+
+  .client-reviews__header p {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .client-review:nth-child(even),
+  .client-review:nth-child(odd) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .client-reviews__header h1 {
+    min-width: 370px;
+  }
+  
+  .client-reviews__header p {
+    min-width: 370px;
+    padding: 0 30px;
+  }
+
+}
