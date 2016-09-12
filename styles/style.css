@@ -270,7 +270,7 @@ body {
   background-color: #efece7;
   border-radius: 20px;
   margin-bottom: 90px;
-  padding: 53px 55px 50px 53px;
+  padding: 53px 55px 50px 52px;
 }
 
 .client-review:last-child {
@@ -278,11 +278,11 @@ body {
 }
 
 .client-review:nth-child(even) {
-  float: right;
+  float: left;
 }
 
 .client-review:nth-child(odd) {
-  float: left;
+  float: right;
 }
 
 .client-review::before {
@@ -296,13 +296,13 @@ body {
 }
 
 .client-review:nth-child(even)::before {
-  left: -189px;
-  top: -60px;
+  left: 819px;
+  top: -61px;
 }
 
 .client-review:nth-child(odd)::before {
-  left: 819px;
-  top: -61px;
+  left: -189px;
+  top: -60px;
 }
 
 .client-review--1::before {
@@ -327,19 +327,19 @@ body {
 }
 
 .client-review:nth-child(even)::after {
-  left: -113px;
-  top: 109px;
-  width: 114px;
-  height: 97px;
-  background-position: -299px -850px;
-}
-
-.client-review:nth-child(odd)::after {
   left: 787px;
   top: 105px;
   width: 115px;
   height: 103px;
   background-position: -425px -847px;
+}
+
+.client-review:nth-child(odd)::after {
+  left: -113px;
+  top: 109px;
+  width: 114px;
+  height: 97px;
+  background-position: -299px -850px;
 }
 
 .client-review__article {
@@ -349,7 +349,7 @@ body {
 
 .client-review__article-header h2 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 2px;
 }
 
