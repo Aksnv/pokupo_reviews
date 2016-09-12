@@ -104,8 +104,8 @@ body {
 }
 
 .page-header__column--submenu-link span {
-  margin-left: 12px;
-  margin-right: 17px;
+  margin-left: 14px;
+  margin-right: 14px;
   /* font-weight: 600; */
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
@@ -122,6 +122,11 @@ body {
 .page-header__column--submenu-active {
   background-color: #ffa800;
 }
+
+/* .page-header__column--submenu-active span {
+  margin-left: 11px;
+  margin-right: 17px;
+} */
 
 .page-header__column--submenu-link .page-header__column--submenu-active {
   color: #ffffff;
@@ -274,7 +279,7 @@ body {
 }
 
 .client-review:last-child {
-  margin-bottom: 105px;
+  margin-bottom: 120px;
 }
 
 .client-review:nth-child(even) {
@@ -367,7 +372,7 @@ body {
 /* ---------------  --------------- Footer ---------------  --------------- */
 
 .page-footer {
-  min-height: 260px;
+  min-height: 245px;
   background-color: #efece7;
   clear: both;
 }
@@ -389,7 +394,7 @@ body {
 .page-footer__column {
   float: left;
   width: 25%;
-  margin-top: 55px;
+  margin-top: 40px;
 }
 
 .contact-icon::before {
@@ -429,7 +434,7 @@ body {
 }
 
 .page-footer__column--sm {
-  margin-top: 66px;
+  margin-top: 50px;
 }
 
 .social-icon {
