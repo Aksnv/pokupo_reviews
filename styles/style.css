@@ -35,7 +35,7 @@ body {
   display: block;
   width: 150px;
   height: 120px;
-  background-image: url(../images/logo.png);
+  background-image: url(../images/logo/logo.png);
   background-repeat: no-repeat;
   background-position: 0 23px;
   color: transparent;
@@ -44,6 +44,10 @@ body {
 .page-header__column--menu {
   position: relative;
   margin-right: 25px;
+}
+
+.page-header__column--menu-hamburger {
+  display: none;
 }
 
 .page-header__column--menu-link,
@@ -500,4 +504,12 @@ body {
 
 .social-icon--gp:hover {
   background-position: -653px -782px;
+}
+
+.page-footer__payment-system {
+  text-align: center;
+}
+
+.page-footer__payment-system--small {
+  display: none;
 }
