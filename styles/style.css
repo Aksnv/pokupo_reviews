@@ -291,6 +291,7 @@ body {
 .client-review::before {
   position: absolute;
   content: '';
+  display: block;
   width: 160px;
   height: 160px;
   /* display: inline-block;
@@ -309,15 +310,15 @@ body {
 }
 
 .client-review--1::before {
-  background-image: url(../images/shl_logo.png);
+  background-image: url(../images/logo/shl_logo.png);
 }
 
 .client-review--2::before {
-  background-image: url(../images/bruco_logo.png);
+  background-image: url(../images/logo/bruco_logo.png);
 }
 
 .client-review--3::before {
-  background-image: url(../images/club_logo.png);
+  background-image: url(../images/logo/club_logo.png);
 }
 
 .client-review::after {
@@ -356,10 +357,14 @@ body {
   margin-bottom: 2px;
 }
 
-.client-review__article-header a {
+.article-header__link {
   font-style: italic;
   text-decoration: underline;
   color: #177a93;
+}
+
+.article-header__link--hidden {
+  visibility: hidden;
 }
 
 .client-review__article p {
