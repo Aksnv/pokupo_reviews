@@ -178,6 +178,7 @@
 @media screen and (max-width: 749px) {
 
   .container {
+    /* position: relative; */
     max-width: 340px;
   }
 
@@ -198,7 +199,7 @@
 
   .page-header__column--menu-hamburger {
     position: absolute;
-    left: 49px;
+    left: 49px; 
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -210,7 +211,7 @@
   .page-header__column--menu-hamburger::before {
     position: absolute;
     top: 4px;
-    left: -19px;
+    left: -28px;
     content: '';
     display: block;
     width: 13px;
@@ -259,13 +260,19 @@
 
   .client-reviews__header {
     min-width: 300px;
+    padding-bottom: 5px;
+  }
+
+  .client-reviews__header p {
+    padding: 0 21px;
+    margin-bottom: 50px;
   }
 
   .client-review {
     max-width: 670px;
-    padding-top: 23px;
-    padding-left: 19px;
-    padding-right: 30px;
+    padding-top: 24px;
+    padding-left: 21px;
+    padding-right: 22px;
     padding-bottom: 45px;
   }
 
@@ -309,22 +316,17 @@
     display: none;
   }
 
-  .client-reviews__header {
-    padding-bottom: 35px;
-  }
-
-  .client-reviews__header p {
-    margin-bottom: 50px;
-  }
-
   .client-review__article-header {
-    padding-left: 119px;
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+    padding-left: 120px;
     padding-top: 20px;
-    /* padding-bottom: 20px; */
+    padding-bottom: 20px; 
   }
 
   .client-review__article p {
-   margin-top: 0;
+   margin-top: 20px;
 }
 
   /* --------------- Footer --------------- */
@@ -351,6 +353,7 @@
   .page-footer__column {
     float: none;
     width: 100%;
+    margin-top: 39px;
   }
 
   .page-footer__column--center {

@@ -11,6 +11,7 @@ body {
 
 .container {
   /* width: 978px; */
+  position: relative;
   max-width: 978px;
   margin: auto;
 }
