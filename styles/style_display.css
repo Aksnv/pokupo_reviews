@@ -188,16 +188,17 @@
   }
 
   .page-header__column--logo {
-    margin-right: 167px;
+    margin-right: 27px;
   }
 
   .page-header__column--logo a {
     background-image: url(../images/logo/logo-sm.png);
-    background-position: 42px 35px;
+    background-position: 49px 35px;
   }
 
   .page-header__column--menu-hamburger {
-    position: relative;
+    position: absolute;
+    left: 49px;
     display: block;
     font-size: 14px;
     font-weight: 700;
@@ -219,6 +220,10 @@
     background-position: -356px -204px;
   }
 
+  .page-header__column--menu-hamburger span {
+    color: transparent;
+  }
+
   .page-header__column--menu-link {
     display: none;
   }
@@ -238,7 +243,23 @@
     margin-right: 25px;
   }
 
+  .page-header__column--registration-seller {
+    width: 46px;
+  }
+
+  .header-icon--registration span {
+    display: none;
+  }
+
+  .header-icon--registration::before {
+    left: 7px;
+  }
+
   /* -------------  Main content  ------------- */
+
+  .client-reviews__header {
+    min-width: 300px;
+  }
 
   .client-review {
     max-width: 670px;
