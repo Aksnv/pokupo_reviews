@@ -121,6 +121,7 @@
   }
 
   .client-review__article-header {
+    height: 82px;
     padding-left: 119px;
     padding-top: 20px;
     padding-bottom: 20px;
