@@ -153,6 +153,42 @@
 
 /* ---------------  --------------- Footer ---------------  --------------- */
 
+  .page-footer__columns {
+    padding-bottom: 35px;
+  }
+
+  .page-footer__columns-left,
+  .page-footer__columns-right {
+    float: left;
+    width: 50%;
+  }
+
+  .page-footer__columns-left,
+  .page-footer__payment-system--small {
+    padding-left: 40px;
+  }
+
+  .page-footer__payment-system--small {
+    padding-bottom: 30px;
+  }
+
+  .page-footer__column {
+    float: none;
+    width: 100%;
+  }
+
+  .page-footer__column--center {
+    margin-top: 20px;
+  }
+
+  .page-footer__column--sm {
+    margin-top: 45px;
+  }
+
+  .social-icon {
+    margin-right: 1px;
+  }
+
   .page-footer__payment-system--big {
     display: none;
   }

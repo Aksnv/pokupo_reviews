@@ -441,6 +441,7 @@ body {
 }
 
 .page-footer__column--sm {
+  float: right;
   margin-top: 50px;
 }
 
@@ -474,6 +475,14 @@ body {
   background-position: -637px -558px;
 }
 
+.social-icon--fb {
+  background-position: -696px -782px;
+}
+
+.social-icon--fb:hover {
+  background-position: -782px -782px;
+}
+
 .social-icon--tw {
   background-position: -729px -282px;
 }
@@ -504,10 +513,6 @@ body {
 
 .social-icon--gp:hover {
   background-position: -653px -782px;
-}
-
-.page-footer__payment-system {
-  text-align: center;
 }
 
 .page-footer__payment-system--small {
