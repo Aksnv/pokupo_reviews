@@ -380,7 +380,7 @@ body {
 
 .page-footer {
   min-height: 245px;
-  background-color: #efece7;
+  background-color: #f2ede7;
   clear: both;
 }
 
@@ -520,6 +520,7 @@ body {
 }
 
 .payment-system__item {
+  display: inline-block;
   margin-right: 46px;
 }
 
