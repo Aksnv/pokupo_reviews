@@ -22,6 +22,10 @@
     background-position: 42px 35px;
   }
 
+  .page-header__column--menu {
+    display: none;
+  }
+
   .page-header__column--menu-hamburger {
     position: relative;
     display: block;
@@ -46,7 +50,7 @@
     background-position: -356px -204px;
   }
 
-  .page-header__column--menu-hamburger::after {
+  .menu-hamburger--active::after {
     position: absolute;
     top: 45px;
     left: 3px;
@@ -103,6 +107,7 @@
 
   /* .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a, */
   .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a {
+    position: relative;
     display: block;
     height: 52px;
     font-weight: 700;
@@ -111,12 +116,33 @@
     background-color: lightgrey;
   }
 
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a::after {
+    position: absolute;
+    top: 24px;
+    right: 33px;
+    content: '';
+    border: 6px solid transparent;
+    border-top-color: #000000;
+  }
+
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a:hover::after {
+    border-top-color: #018f3c;
+  }
+
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link .page-header__column--menu-active::after {
+    border-top-color: #018f3c;
+  }
+
   .menu-hamburger--active + .page-header__column--menu .page-header__column--submenu-link a {
     height: 41px;
     font-weight: 400;
     line-height: 41px;
     border-bottom: 1px solid lightgrey;
     background-color: #ffffff;
+  }
+
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--submenu-link a::after {
+    display: none;
   }
 
   .menu-hamburger--active + .page-header__column--menu .page-header__column--submenu-link a:hover {
