@@ -87,7 +87,7 @@ body {
   content: '';
   margin-left: -10px; 
   border: 10px solid transparent;
-  border-bottom-color: #018f3c
+  border-bottom-color: #018f3c;
 }  
 
 .page-header__column--submenu {
