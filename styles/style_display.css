@@ -107,7 +107,6 @@
 
   /* .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a, */
   .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a {
-    position: relative;
     display: block;
     height: 52px;
     font-weight: 700;
@@ -116,20 +115,24 @@
     background-color: lightgrey;
   }
 
-  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a::after {
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a + ul {
+    position: relative;
+  }
+
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a + ul::after {
     position: absolute;
-    top: 24px;
+    top: -29px;
     right: 33px;
     content: '';
     border: 6px solid transparent;
     border-top-color: #000000;
   }
 
-  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a:hover::after {
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link a:hover + ul::after {
     border-top-color: #018f3c;
   }
 
-  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link .page-header__column--menu-active::after {
+  .menu-hamburger--active + .page-header__column--menu .page-header__column--menu-link .page-header__column--menu-active + ul::after {
     border-top-color: #018f3c;
   }
 
