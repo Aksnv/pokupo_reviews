@@ -4,7 +4,8 @@
 
   .container {
     position: static;
-    max-width: 750px;
+    width: 750px;
+    /* max-width: 750px; */
   }
 
   /* ---------------  Header --------------- */
@@ -124,7 +125,8 @@
 
   .link-wrapper {
     position: relative;
-    max-width: 730px;
+    width: 730px;
+    /* max-width: 730px; */
     margin: 0 auto;
   }
 
@@ -226,7 +228,8 @@
   }
 
   .client-review {
-    max-width: 670px;
+    width: 670px;
+    /* max-width: 670px; */
     padding-left: 51px;
     padding-right: 47px;
     padding-bottom: 45px;
@@ -331,8 +334,9 @@
 
   .container {
     /* position: static; */ 
-    max-width: 340px;
-    min-width: 340px;
+    /* max-width: 340px;
+    min-width: 340px; */
+    width: 360px;
   }
 
   /* ---------------  Header --------------- */
@@ -378,7 +382,8 @@
   }
 
   .link-wrapper {
-    max-width: 340px;
+    width: 340px;
+   /*  max-width: 340px; */
   }
 
   .page-header__column--menu-hamburger:hover + .page-header__column--menu .menu-link--platform .link-wrapper::after,
@@ -410,6 +415,7 @@
   /* -------------  Main content  ------------- */
 
   .client-reviews__header {
+    width: 340px;
     padding-bottom: 55px;
   }
 
@@ -419,6 +425,7 @@
 
   .client-review {
     /* max-width: 340px; */
+    width: 340px;
     padding-top: 24px;
     padding-left: 21px;
     padding-right: 18px;
