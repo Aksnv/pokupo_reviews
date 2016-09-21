@@ -11,8 +11,8 @@ body {
 
 .container {
   position: relative;
-  width: 978px;
   /* max-width: 978px; */
+  width: 978px;
   margin: auto;
 }
 
@@ -70,7 +70,6 @@ body {
 }
 
 .page-header__column--menu-active {
-  text-align: center;
   border-bottom: 3px solid #018f3c;
 }
 
@@ -80,9 +79,10 @@ body {
 
 .page-header__column--menu-active::after {
   position: absolute;
-  top: 99px;
+  top: 99px; 
+  left: 50%;
   content: '';
-  margin-left: -10px; 
+  margin-left: -8px;  
   border: 10px solid transparent;
   border-bottom-color: #018f3c;
 }  

@@ -1,11 +1,11 @@
 /* Diffrent display layout styles */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 
   .container {
     position: static;
-    width: 750px;
     /* max-width: 750px; */
+    width: 750px;
   }
 
   /* ---------------  Header --------------- */
@@ -125,8 +125,8 @@
 
   .link-wrapper {
     position: relative;
-    width: 730px;
     /* max-width: 730px; */
+    width: 730px;
     margin: 0 auto;
   }
 
@@ -228,8 +228,8 @@
   }
 
   .client-review {
-    width: 670px;
     /* max-width: 670px; */
+    width: 670px;
     padding-left: 51px;
     padding-right: 47px;
     padding-bottom: 45px;
@@ -334,21 +334,21 @@
 
   .container {
     /* position: static; */ 
-    /* max-width: 340px;
-    min-width: 340px; */
+    /* max-width: 360px;
+    min-width: 360px; */
     width: 360px;
   }
 
   /* ---------------  Header --------------- */
 
   .page-header__column--logo {
-    margin-right: 27px;
+    margin-right: 28px;
     margin-left: 50px;
   }
 
   .page-header__column--logo a {
-    width: 100px;
-    background-position: 0px 35px;
+    width: 107px;
+    background-position: 7px 35px;
   }
 
   .page-header__column--menu-hamburger {
@@ -382,8 +382,8 @@
   }
 
   .link-wrapper {
+    /*  max-width: 340px; */
     width: 340px;
-   /*  max-width: 340px; */
   }
 
   .page-header__column--menu-hamburger:hover + .page-header__column--menu .menu-link--platform .link-wrapper::after,
