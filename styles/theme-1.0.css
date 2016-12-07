@@ -4910,15 +4910,15 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
   }
 
   .client-reviews__header {
-    padding-bottom: 85px;
+    padding-bottom: 64px;
   }
 
   .client-review {
     /* max-width: 670px; */
     width: 670px;
     padding-left: 51px;
-    padding-right: 47px;
-    padding-bottom: 45px;
+    padding-right: 75px;
+    padding-bottom: 24px;
   }
 
   .client-review:nth-child(even),
@@ -4982,7 +4982,7 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
 
   .client-reviews__header {
     width: 340px;
-    padding-bottom: 55px;
+    padding-bottom: 35px;
   }
 
   .client-reviews__header p {
