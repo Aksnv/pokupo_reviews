@@ -4767,11 +4767,11 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
 /* ------------- Main content ------------- */
 
 .client-reviews__header {
-  width: 560px;
+  width: 545px;
   /* max-width: 560px; */
   /* min-width: 370px; */
   margin: auto;
-  padding-bottom: 105px;
+  padding-bottom: 84px;
   text-align: center;
 }
 
@@ -4785,13 +4785,13 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
   background-repeat: no-repeat;
   background-position: -101px -851px;
   margin-left: 15px;
-  margin-bottom: 23px;
+  margin-bottom: 10px;
 }
 
 .client-reviews__header h1 {
   font-size: 45px;
   font-weight: 300;
-  margin-bottom: 32px;
+  margin-bottom: 21px;
 }
 
 .client-review {
@@ -4804,10 +4804,13 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
   border-radius: 20px;
   margin-bottom: 90px;
   padding: 53px;
+  padding-right: 85px;
+  padding-bottom: 22px;
+  text-align: left;
 }
 
 .client-review:last-child {
-  margin-bottom: 120px;
+  margin-bottom: 105px;
 }
 
 .client-review:nth-child(even) {
@@ -4883,7 +4886,7 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
 .client-review__article-header h2 {
   font-size: 18px;
   font-weight: 800;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
 }
 
 .article-header__link {
@@ -4893,7 +4896,7 @@ section.subheader_pkp.subheader--min .menu-login .not-logged-in a.menu-login__lo
 }
 
 .client-review__article p {
-   margin-top: 20px;
+   margin-top: 21px;
 }
 
 /* Diffrent display layout styles */

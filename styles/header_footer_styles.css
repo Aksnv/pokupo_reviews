@@ -3,7 +3,7 @@
 
 .page-header {
   height: 120px;
-  margin-bottom: 101px;
+  margin-bottom: 120px;
 }
 
 .page-header__column {
@@ -127,7 +127,7 @@
 }
 
 .page-header__column--submenu-platform,
-.page-header__column--submenu-company {
+.page-header__column--submenu-help {
   display: none;
 }
 
