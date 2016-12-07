@@ -263,10 +263,14 @@
   }
 
   .client-review--2::before {
-    background-image: url(../images/logo/bruco_logo-sm.png);
+    background-image: url(../images/logo/boy_sm.png);
   }
 
   .client-review--3::before {
+    background-image: url(../images/logo/bruco_logo-sm.png);
+  }
+
+  .client-review--4::before {
     background-image: url(../images/logo/club_logo-sm.png);
   }
 

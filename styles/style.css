@@ -70,6 +70,7 @@ body {
 }
 
 .page-header__column--menu-active {
+  position: relative;
   border-bottom: 3px solid #018f3c;
 }
 
@@ -82,7 +83,7 @@ body {
   top: 99px; 
   left: 50%;
   content: '';
-  margin-left: -8px;  
+  margin-left: -10px;  
   border: 10px solid transparent;
   border-bottom-color: #018f3c;
 }  
@@ -287,10 +288,14 @@ body {
 }
 
 .client-review--2::before {
-  background-image: url(../images/logo/bruco_logo.png);
+  background-image: url(../images/logo/boy.png);
 }
 
 .client-review--3::before {
+  background-image: url(../images/logo/bruco_logo.png);
+}
+
+.client-review--4::before {
   background-image: url(../images/logo/club_logo.png);
 }
 
