@@ -1,21 +1,14 @@
-/* Diffrent display layout styles */
 
 @media screen and (max-width: 1024px) {
-
-  .container {
-    position: static;
-    /* max-width: 750px; */
-    width: 750px;
-  }
 
   /* ---------------  Header --------------- */
 
   .page-header {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .page-header__column--logo {
-    margin-right: 167px;
+    margin-right: 168px;
   }
 
   .page-header__column--logo a {
@@ -29,14 +22,14 @@
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 54px;
-    margin-right: 28px;
+    margin-top: 57px;
+    margin-right: 29px;
     cursor: pointer;
   }
 
   .page-header__column--menu-hamburger::before {
     position: absolute;
-    top: 4px;
+    top: 1px;
     left: -19px;
     content: '';
     /* display: block; */
@@ -49,6 +42,10 @@
 
   .page-header__column--menu {
     display: none;
+  }
+
+  .page-header__column--menu-link a {
+    padding-top: 0;
   }
 
   /* Выпадающее меню */
@@ -82,11 +79,13 @@
 
   .page-header__column--menu-hamburger:hover + .page-header__column--menu::after {
     position: absolute;
+    left: 0;
     bottom: 0;
     content: '';
     /* display: block; */
     width: 98%;
     height: 10px;
+    text-align: left;
     margin-left: 1%;
     box-shadow: 0 2px 10px #b7b4b1;
     z-index: -1;
@@ -118,6 +117,7 @@
 
   .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link span {
     display: block;
+    text-align: center;
     padding-left: 28px;
     border-bottom: none;
     transition: none;
@@ -135,12 +135,12 @@
   }
 
   .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a + .page-header__column--submenu-platform .page-header__column--submenu-link,
-  .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a + .page-header__column--submenu-help .page-header__column--submenu-link {
+  .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a + .page-header__column--submenu-company .page-header__column--submenu-link {
     display: none;
   }
 
   .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a:hover + .page-header__column--submenu-platform .page-header__column--submenu-link,
-  .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a:hover + .page-header__column--submenu-help .page-header__column--submenu-link {
+  .page-header__column--menu-hamburger:hover + .page-header__column--menu .page-header__column--menu-link a:hover + .page-header__column--submenu-company .page-header__column--submenu-link {
     display: block;
   }
 
@@ -221,69 +221,6 @@
     margin-right: 25px;
   }
 
-  /* -------------  Main content  ------------- */
-
-  .client-reviews__header {
-    padding-bottom: 85px;
-  }
-
-  .client-review {
-    /* max-width: 670px; */
-    width: 670px;
-    padding-left: 51px;
-    padding-right: 47px;
-    padding-bottom: 45px;
-  }
-
-  .client-review:nth-child(even),
-  .client-review:nth-child(odd) {
-    float: none;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-
-  .client-review:last-child {
-    margin-bottom: 90px;
-  }
-
-  .client-review::before {
-    /* position: absolute; */
-    width: 100px;
-    height: 100px;
-  }
-
-  .client-review:nth-child(even)::before,
-  .client-review:nth-child(odd)::before {
-    left: 50px;
-    top: 40px;
-  }
-
-  .client-review--1::before {
-    background-image: url(../images/logo/shl_logo-sm.png);
-  }
-
-  .client-review--2::before {
-    background-image: url(../images/logo/boy_sm.png);
-  }
-
-  .client-review--3::before {
-    background-image: url(../images/logo/bruco_logo-sm.png);
-  }
-
-  .client-review--4::before {
-    background-image: url(../images/logo/club_logo-sm.png);
-  }
-
-  .client-review:nth-child(even)::after,
-  .client-review:nth-child(odd)::after {
-    display: none;
-  }
-
-  .client-review__article-header {
-    min-height: 82px;
-    padding-left: 119px;
-    padding-top: 20px;
-  }
 
   /* --------------- Footer --------------- */
 
@@ -297,8 +234,7 @@
     width: 50%;
   }
 
-  .page-footer__columns-left,
-  .page-footer__payment-system {
+  .page-footer__columns-left {
     padding-left: 40px;
   }
 
@@ -311,6 +247,10 @@
     margin-top: 20px;
   }
 
+  .page-footer__columns-right {
+    padding-left: 10px;
+  }
+
   .page-footer__column--sm {
     margin-top: 45px;
   }
@@ -320,11 +260,17 @@
   }
 
   .page-footer__payment-system {
+    text-align: left;
+    padding-left: 30px;
     padding-bottom: 30px;
   }
 
   .payment-system__item:nth-child(n) {
     margin-right: 14px;
+  }
+
+  .payment-system__item:nth-child(1) {
+    margin-left: 0;
   }
 
   .payment-system__item:nth-child(4),
@@ -335,13 +281,6 @@
 
 
 @media screen and (max-width: 749px) {
-
-  .container {
-    /* position: static; */ 
-    /* max-width: 360px;
-    min-width: 360px; */
-    width: 360px;
-  }
 
   /* ---------------  Header --------------- */
 
@@ -416,50 +355,11 @@
     left: 7px;
   }
 
-  /* -------------  Main content  ------------- */
-
-  .client-reviews__header {
-    width: 340px;
-    padding-bottom: 55px;
-  }
-
-  .client-reviews__header p {
-    padding: 0 21px;
-  }
-
-  .client-review {
-    /* max-width: 340px; */
-    width: 340px;
-    padding-top: 24px;
-    padding-left: 21px;
-    padding-right: 18px;
-  }
-
-  .client-review:last-child {
-    margin-bottom: 50px;
-  }
-
-  .client-review:nth-child(even)::before,
-  .client-review:nth-child(odd)::before {
-    left: 20px;
-    top: 20px;
-  }
-
-  .client-review__article-header {
-    display: table-cell;
-    height: 100px;
-    vertical-align: middle;
-    padding-left: 120px;
-    padding-bottom: 20px; 
-  }
-
+  
   /* --------------- Footer --------------- */
 
-  .page-footer {
-    text-align: center;
-  }
-
   .page-footer__columns {
+    text-align: center;
     padding-bottom: 30px;
   }
 
@@ -498,7 +398,8 @@
   }
 
   .page-footer__payment-system {
-    padding-left: 17px;
+    text-align: center;
+    padding-left: 25px;
     padding-bottom: 10px;
   }
 
@@ -510,10 +411,10 @@
   .payment-system__item:nth-child(6),
   .payment-system__item:nth-child(7),
   .payment-system__item:nth-child(8) {
-    padding-top: 5px;
+    padding-top: 7px;
   }
 
   .payment-system__item:nth-child(9) {
-    margin-top: -5px;
+    margin-top: -2px;
   }
 }

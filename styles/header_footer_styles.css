@@ -1,26 +1,9 @@
-/* Main layout styles */
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 20px;
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.container {
-  position: relative;
-  /* max-width: 978px; */
-  width: 978px;
-  margin: auto;
-}
 
 /* ---------------  --------------- Header ---------------  --------------- */
 
 .page-header {
   height: 120px;
-  margin-bottom: 120px;
+  margin-bottom: 101px;
 }
 
 .page-header__column {
@@ -28,7 +11,7 @@ body {
 }
 
 .page-header__column--logo {
-  margin-right: 29px;
+  margin-right: 25px;
 }
 
 .page-header__column--logo a {
@@ -47,7 +30,7 @@ body {
 
 .page-header__column--menu {
   position: relative;
-  margin-right: 25px;
+  margin-right: 27px;
 }
 
 .page-header__column--menu-link,
@@ -57,11 +40,12 @@ body {
 
 .page-header__column--menu-link a {
   display: block;
-  height: 117px;
-  padding-left: 10px;
-  padding-right: 10px;
+  height: 120px;
+  padding-top: 57px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-size: 16px;
-  line-height: 126px;
+  text-decoration: none;
   color: #000000;
 }
 
@@ -100,13 +84,11 @@ body {
 .page-header__column--submenu-link a {
   height: 60px;
   font-size: 14px;
-  line-height: 58px;
-  padding: 0;
+  line-height: 60px;
+  padding: 0 16px;
 }
 
 .page-header__column--submenu-link span {
-  margin-left: 14px;
-  margin-right: 14px;
   border-bottom: 1px solid transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -145,7 +127,7 @@ body {
 }
 
 .page-header__column--submenu-platform,
-.page-header__column--submenu-help {
+.page-header__column--submenu-company {
   display: none;
 }
 
@@ -191,10 +173,12 @@ body {
 }
 
 .header-icon--registration {
+  font-size: 13px;
   font-weight: 600;
-  line-height: 39px;
+  line-height: 42px;
   text-transform: uppercase;
-  padding-left: 56px;
+  text-decoration: none;
+  padding-left: 25px;
   color: #000000;
 }
 
@@ -211,138 +195,6 @@ body {
   background-position: -858px -483px;
 }
 
-/* -------------  ------------- Main content -------------  ------------- */
-
-.client-reviews__header {
-  width: 560px;
-  /* max-width: 560px; */
-  /* min-width: 370px; */
-  margin: auto;
-  padding-bottom: 105px;
-  text-align: center;
-}
-
-.client-reviews__header::before {
-  content: '';
-  display: inline-block;
-  vertical-align: top;
-  width: 185px;
-  height: 93px;
-  background-image: url(../images/main_sprite.png);
-  background-repeat: no-repeat;
-  background-position: -101px -851px;
-  margin-left: 15px;
-  margin-bottom: 23px;
-}
-
-.client-reviews__header h1 {
-  font-size: 45px;
-  font-weight: 300;
-  margin-bottom: 32px;
-}
-
-.client-review {
-  display: table;
-  position: relative;
-  width: 788px;
-  height: 257px;
-  /* min-height: 257px; */
-  background-color: #efece7;
-  border-radius: 20px;
-  margin-bottom: 90px;
-  padding: 53px;
-}
-
-.client-review:last-child {
-  margin-bottom: 120px;
-}
-
-.client-review:nth-child(even) {
-  float: left;
-}
-
-.client-review:nth-child(odd) {
-  float: right;
-}
-
-.client-review::before {
-  position: absolute;
-  content: '';
-  /* display: block; */
-  width: 160px;
-  height: 160px;
-}
-
-.client-review:nth-child(even)::before {
-  left: 819px;
-  top: -61px;
-}
-
-.client-review:nth-child(odd)::before {
-  left: -189px;
-  top: -60px;
-}
-
-.client-review--1::before {
-  background-image: url(../images/logo/shl_logo.png);
-}
-
-.client-review--2::before {
-  background-image: url(../images/logo/boy.png);
-}
-
-.client-review--3::before {
-  background-image: url(../images/logo/bruco_logo.png);
-}
-
-.client-review--4::before {
-  background-image: url(../images/logo/club_logo.png);
-}
-
-.client-review::after {
-  position: absolute;
-  content: '';
-  background-image: url(../images/main_sprite.png);
-  background-repeat: no-repeat; 
-}
-
-.client-review:nth-child(even)::after {
-  left: 787px;
-  top: 105px;
-  width: 115px;
-  height: 103px;
-  background-position: -425px -847px;
-}
-
-.client-review:nth-child(odd)::after {
-  left: -113px;
-  top: 109px;
-  width: 114px;
-  height: 97px;
-  background-position: -299px -850px;
-}
-
-.client-review__article {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.client-review__article-header h2 {
-  font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 2px;
-}
-
-.article-header__link {
-  font-style: italic;
-  text-decoration: underline;
-  color: #177a93;
-}
-
-.client-review__article p {
-   margin-top: 20px;
-}
-
 /* ---------------  --------------- Footer ---------------  --------------- */
 
 .page-footer {
@@ -353,11 +205,15 @@ body {
 
 .page-footer__columns {
   overflow: hidden; 
-  padding-bottom: 46px;
+  font-size: 13px;
+  text-align: left;
+  line-height: 20px;
+  padding-bottom: 45px;
   color: #605e5c;
 }
 
 .page-footer__columns a {
+  text-decoration: none;
   color: #605e5c;
 }
 
@@ -368,7 +224,8 @@ body {
 .page-footer__column {
   float: left;
   width: 25%;
-  margin-top: 40px;
+  margin-top: 41px;
+  padding-left: 2px;
 }
 
 .contact-icon::before {
@@ -410,6 +267,7 @@ body {
 .page-footer__column--sm {
   float: right;
   margin-top: 50px;
+  padding-left: 0;
 }
 
 .social-icon {
@@ -417,7 +275,7 @@ body {
   vertical-align: top;
   width: 35px;
   height: 35px;
-  margin-right: 2px;
+  margin-right: 1px;
   border-radius: 5px;
   background-image: url("../images/main_sprite.png");
   background-repeat: no-repeat;
@@ -482,14 +340,14 @@ body {
   background-position: -653px -782px;
 }
 
-.page-footer__payment-system {
-  padding-left: 4px;
-}
-
 .payment-system__item {
   display: inline-block;
   vertical-align: top;
-  margin-right: 46px;
+  margin-right: 44px;
+}
+
+.payment-system__item:nth-child(1) {
+  margin-left: 5px;
 }
 
 .payment-system__item:nth-child(2) {
