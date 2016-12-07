@@ -30,7 +30,8 @@
 
 .page-header__column--menu {
   position: relative;
-  margin-right: 27px;
+  /* margin-right: 27px; */
+  margin-right: 9px;
 }
 
 .page-header__column--menu-link,
